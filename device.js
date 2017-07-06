@@ -2,27 +2,27 @@
     var canvas, gl, glRenderer, models,
         devices = {
             "Apple A7 GPU": {
-                568: ["iPhone 5", "iPhone 5s"],
-                1024: ["iPad Air", "iPad Mini 2", "iPad Mini 3"]
+                1136: ["iPhone 5", "iPhone 5s"],
+                2048: ["iPad Air", "iPad Mini 2", "iPad Mini 3"]
             },
 
             "Apple A8 GPU": {
-                568: ["iPod touch (6th generation)"],
-                667: ["iPhone 6"],
-                736: ["iPhone 6 Plus"],
-                1024: ["iPad Air 2", "iPad Mini 4"]
+                1136: ["iPod touch (6th generation)"],
+                1334: ["iPhone 6"],
+                2208: ["iPhone 6 Plus"],
+                2048: ["iPad Air 2", "iPad Mini 4"]
             },
 
             "Apple A9 GPU": {
-                568: ["iPhone SE"],
-                667: ["iPhone 6s"],
-                736: ["iPhone 6s Plus"],
-                1112: ["iPad Pro (9.7-inch)"],
-                1336: ["iPad Pro (12.9-inch)"]
+                1136: ["iPhone SE"],
+                1334: ["iPhone 6s"],
+                2208: ["iPhone 6s Plus"],
+                2224: ["iPad Pro (9.7-inch)"],
+                2732: ["iPad Pro (12.9-inch)"]
             },
 
             "Apple A10 GPU": {
-                667: ["iPhone 7"],
+                1334: ["iPhone 7"],
                 736: ["iPhone 7 Plus"]
             }
         };
@@ -44,7 +44,7 @@
     }
 
     function getScreenWidth() {
-        return Math.max(screen.width, screen.height);
+        return Math.max(screen.width, screen.height) * (window.devicePixelRatio || 1);
     }
 
     function getGlRenderer() {
