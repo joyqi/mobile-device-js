@@ -10,7 +10,7 @@
                 568: ["iPod touch (6th generation)"],
                 667: ["iPhone 6"],
                 736: ["iPhone 6 Plus"],
-                1024:[ "iPad Air 2", "iPad Mini 4"]
+                1024: ["iPad Air 2", "iPad Mini 4"]
             },
 
             "Apple A9 GPU": {
