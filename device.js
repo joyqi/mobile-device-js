@@ -9,21 +9,21 @@
             "Apple A8 GPU": {
                 1136: ["iPod touch (6th generation)"],
                 1334: ["iPhone 6"],
-                2208: ["iPhone 6 Plus"],
+                2001: ["iPhone 6 Plus"],
                 2048: ["iPad Air 2", "iPad Mini 4"]
             },
 
             "Apple A9 GPU": {
                 1136: ["iPhone SE"],
                 1334: ["iPhone 6s"],
-                2208: ["iPhone 6s Plus"],
+                2001: ["iPhone 6s Plus"],
                 2224: ["iPad Pro (9.7-inch)"],
                 2732: ["iPad Pro (12.9-inch)"]
             },
 
             "Apple A10 GPU": {
                 1334: ["iPhone 7"],
-                736: ["iPhone 7 Plus"]
+                2001: ["iPhone 7 Plus"]
             }
         };
 
