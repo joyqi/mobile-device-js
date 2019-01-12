@@ -87,6 +87,7 @@
 
     window.MobileDevice.getGlRenderer = getGlRenderer;
     window.MobileDevice.getModels = getModels;
+    window.MobileDevice.getResolution = getResolution;
 
     window.MobileDevice.is = function (match) {
         var currentModels = getModels();
