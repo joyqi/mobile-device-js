@@ -19,7 +19,7 @@
             ['a11', '750x1334', ['iPhone 8']],
             ['a11', '1242x2208', ['iPhone 8 Plus']],
             ['a11', '1125x2436', ['iPhone X']],
-            ['a12', '826x1792', ['iPhone Xr']],
+            ['a12', '828x1792', ['iPhone Xr']],
             ['a12', '1125x2436', ['iPhone Xs']],
             ['a12', '1242x2688', ['iPhone Xs Max']],
             ['a12x', '1668x2388', ['iPad Pro (3rd gen 11-inch)']],
