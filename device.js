@@ -60,7 +60,7 @@
     function getModels() {
         if (models == null) {
             var gpu = getGlRenderer(),
-                matches = gpu.match('/apple\s+([_a-z0-9-]+)\s+gpu/i'),
+                matches = gpu.match(/^apple\s+([_a-z0-9-]+)\s+gpu$/i),
                 res = getResolution();
             
             models = ['unknown'];
